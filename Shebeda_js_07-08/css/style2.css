@@ -1,0 +1,81 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.wrapper{    
+	width: 580px;
+	height: 123px;
+	border: 1px solid black;
+	margin: 0 auto;
+	}
+.label1 {
+	font-family: Arial;
+	font-size: 10px;
+	margin-left: 10px;
+}
+.input1 {
+	margin-left: 10px;
+    margin-top: 5px;
+}
+.input1:hover::after { 
+ content: attr(data-title); 
+}
+.input2 {
+	margin-left: 10px;
+}
+.input3 {
+	margin-left: 18px;
+}
+div {
+	margin-bottom: 20px;
+}
+.help1 {
+    width: 260px;
+    height: 20px;
+	position: absolute;
+	margin-left: 240px;
+    margin-top: -117px;
+    font-size: 13px;
+    text-align: center;
+    font-family: Arial;
+    border-radius: 2px;
+    background: rgba(250, 235, 215, 0.77);
+    display: none;
+}
+.help2 {
+    width: 260px;
+    height: 20px;
+	position: absolute;
+	margin-left: 240px;
+    margin-top: -78px;
+    font-size: 13px;
+    text-align: center;
+    font-family: Arial;
+    border-radius: 2px;
+    background: rgba(250, 235, 215, 0.77);
+    display: none;
+}
+.help3 {
+    width: 260px;
+    height: 20px;
+	position: absolute;
+	margin-left: 240px;
+    margin-top: -38px;
+    font-size: 13px;
+    text-align: center;
+    font-family: Arial;
+    border-radius: 2px;
+    background: rgba(250, 235, 215, 0.77);
+    display: none;
+}
+.button {
+	background: rgba(128, 128, 128, 0.22);
+	width: 75px;
+	height: 25px;
+	margin-left: 665px;
+	border-radius: 5px;
+	margin-top: 2px;
+}
+.button:hover {
+	border: 1px solid;
+}
